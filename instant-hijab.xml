@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="instant-hijab.xsl"?>
+
+<instantHijabCollection>
+
+    <shopName>Tudung Kamu</shopName>
+    <category>Instant Hijab Collection</category>
+
+    <product>
+        <name>Easyon Camelia Instant</name>
+        <price>RM 79.00</price>
+        <description>
+            Soft and breathable instant hijab designed for daily comfort. Easy to wear and perfect for students and working women.
+        </description>
+        <material>Cotton Lycra</material>
+        <type>Sarung</type>
+    </product>
+
+    <product>
+        <name>Easyon Camila Instant</name>
+        <price>RM 89.00</price>
+        <description>
+            Elegant instant hijab with a smooth texture and comfortable fit for long wear.
+        </description>
+        <material>Moss Crepe</material>
+        <type>Sarung</type>
+    </product>
+
+    <product>
+        <name>Easyon Malena Instant</name>
+        <price>RM 79.00</price>
+        <description>
+            Lightweight instant hijab suitable for everyday styling with a neat and modern look.
+        </description>
+        <material>Cey Crepe</material>
+        <type>Sarung</type>
+    </product>
+
+    <product>
+        <name>Easyon Printed Peony Instant</name>
+        <price>RM 99.00</price>
+        <description>
+            Beautiful printed instant hijab with floral design for a stylish and feminine appearance.
+        </description>
+        <material>Moss Crepe</material>
+        <type>Sarung</type>
+    </product>
+
+    <product>
+        <name>Easyon Pleated Crystal Twist</name>
+        <price>RM 109.00</price>
+        <description>
+            Pleated twist hijab with crystal texture for a classy and premium finish.
+        </description>
+        <material>Cey Crepe</material>
+        <type>Twist</type>
+    </product>
+
+    <product>
+        <name>Easyon Akar Halia Twist</name>
+        <price>RM 99.00</price>
+        <description>
+            Trendy twist hijab with unique akar halia pattern for a bold and modern look.
+        </description>
+        <material>Moss Crepe</material>
+        <type>Twist</type>
+    </product>
+
+    <product>
+        <name>Easyon Dewi Sulam Instant</name>
+        <price>RM 119.00</price>
+        <description>
+            Premium instant hijab with delicate embroidery for elegant occasions.
+        </description>
+        <material>Cotton Lycra</material>
+        <type>Sarung</type>
+    </product>
+
+    <product>
+        <name>Easyon Indigo Instant</name>
+        <price>RM 109.00</price>
+        <description>
+            Stylish indigo-coloured instant hijab for a bold and confident appearance.
+        </description>
+        <material>Cey Crepe</material>
+        <type>Sarung</type>
+    </product>
+
+    <product>
+        <name>Easyon Anya Slip-On Instant</name>
+        <price>RM 89.00</price>
+        <description>
+            Slip-on instant hijab that is easy to wear and perfect for busy mornings.
+        </description>
+        <material>Cotton Lycra</material>
+        <type>Slip-On</type>
+    </product>
+
+    <product>
+        <name>Easyon Delia Krista Instant</name>
+        <price>RM 69.00</price>
+        <description>
+            Affordable and comfortable instant hijab for everyday casual wear.
+        </description>
+        <material>Moss Crepe</material>
+        <type>Sarung</type>
+    </product>
+
+</instantHijabCollection>

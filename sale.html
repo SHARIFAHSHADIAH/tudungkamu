@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale | Tudung Kamu</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .hero {
+            background-color: #F3E3CF;
+            padding: 80px 60px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 50px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: #7A1F2B;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .product-card {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .product-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            color: #7A1F2B;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .product-price {
+            font-size: 15px;
+            font-weight: 500;
+            color: #666;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-right: 5px;
+        }
+
+        .btn-add {
+            width: 100%;
+            padding: 12px;
+            background-color: transparent;
+            border: 1px solid #7A1F2B;
+            color: #7A1F2B;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .btn-add:hover {
+            background-color: #7A1F2B;
+            color: white;
+        }
+
+        .sale-badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background-color: #E63946; 
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+
+        <div class="top-bar">
+            <div class="logo">TUDUNG KAMU</div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search tudung, instant hijab, shawl...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="icons">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">2</span>
+                </a>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="new-arrivals.html">New Arrivals</a></li>
+                <li><a href="instant-hijab.html">Instant Hijab</a></li>
+                <li><a href="premium-shawl.html">Premium Shawl</a></li>
+                <li><a href="sale.html">Sale</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Sale Time!</h1>
+    <p>Grab your favourite Tudung Kamu hijabs at amazing discounts. Limited stocks available!</p>
+</section>
+
+<div class="container">
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="image/sale/hazel.jpg" alt="Easyon Diamond Instant">
+            <div class="product-name">Easyon Diamond Instant</div>
+            <div class="product-price">
+                <span class="old-price">RM 99.00</span> RM 79.00
+            </div>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="image/sale/kapas.jpg" alt="Brown Hazel Bawal">
+            <div class="product-name">Brown Hazel Bawal</div>
+            <div class="product-price">
+                <span class="old-price">RM 119.00</span> RM 95.00
+            </div>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="image/sale/marissa.jpg" alt="Midnight Blue Bawal">
+            <div class="product-name">Midnight Blue Bawal</div>
+            <div class="product-price">
+                <span class="old-price">RM 89.00</span> RM 69.00
+            </div>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="image/sale/petal.jpg" alt="Easyon Printed Instant">
+            <div class="product-name">Easyon Printed Instant</div>
+            <div class="product-price">
+                <span class="old-price">RM 79.00</span> RM 59.00
+            </div>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+         <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="image/sale/raya.jpg" alt="Easyon Gray Instant">
+            <div class="product-name">Easyon Gray Instant </div>
+            <div class="product-price">
+                <span class="old-price">RM 79.00</span> RM 59.00
+            </div>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+        
+                <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="image/sale/yasmine.jpg" alt="EasyonLime Instant">
+            <div class="product-name">Easyon Lime Instant</div>
+            <div class="product-price">
+                <span class="old-price">RM 79.00</span> RM 59.00
+            </div>
+            <button class="btn-add">Add to Cart</button>
+        </div>
+
+      
+    </div>
+</div>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h5>Customer Service</h5>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Policies</h5>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>About Tudung Kamu</h5>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>FAQs</h5>
+                <ul>
+                    <li><a href="#">General FAQs</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tudung Kamu. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

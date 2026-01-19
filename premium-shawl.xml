@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="premium-shawl.xsl"?>
+
+<premiumShawlStore>
+    <brand>Tudung Kamu</brand>
+    <collection>Premium Shawl</collection>
+
+    <product>
+        <name>Clara Matte Satin Shawl</name>
+        <price>99.00</price>
+        <material>Matte Satin</material>
+    </product>
+
+    <product>
+        <name>Delilah Chiffon Shawl</name>
+        <price>79.90</price>
+        <material>Chiffon</material>
+    </product>
+
+    <product>
+        <name>Warna Chiffon Moonlit Shawl</name>
+        <price>109.00</price>
+        <material>Chiffon</material>
+    </product>
+
+    <product>
+        <name>Alaia Chiffon Rose Shawl</name>
+        <price>69.90</price>
+        <material>Chiffon</material>
+    </product>
+
+    <product>
+        <name>Bayu Fleur Shawl</name>
+        <price>99.90</price>
+        <material>Premium Fabric</material>
+    </product>
+
+    <product>
+        <name>Cloud Locket Chiffon Shawl</name>
+        <price>129.90</price>
+        <material>Chiffon</material>
+    </product>
+
+    <product>
+        <name>Twinkle Berry Chiffon Shawl</name>
+        <price>119.00</price>
+        <material>Chiffon</material>
+    </product>
+
+    <product>
+        <name>Cleo Sonic Chiffon Shawl</name>
+        <price>69.90</price>
+        <material>Chiffon</material>
+    </product>
+
+    <product>
+        <name>Eila Metal Satin Shawl</name>
+        <price>79.90</price>
+        <material>Satin</material>
+    </product>
+
+    <product>
+        <name>Grace Crystal Chiffon Shawl</name>
+        <price>99.90</price>
+        <material>Chiffon</material>
+    </product>
+
+</premiumShawlStore>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Arrivals | Tudung Kamu</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.hero {
+    background-color: #F3E3CF;
+    padding: 80px 60px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #7A1F2B;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.product-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #7A1F2B;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.product-price {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+}
+
+.btn-add {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #7A1F2B;
+    color: #7A1F2B;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-add:hover {
+    background-color: #7A1F2B;
+    color: white;
+}
+
+.new-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #FFD166; 
+    color: #7A1F2B;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+
+        <div class="top-bar">
+            <div class="logo">TUDUNG KAMU</div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search tudung, instant hijab, shawl...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="icons">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">2</span>
+                </a>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="new-arrivals.html">New Arrivals</a></li>
+                <li><a href="instant-hijab.html">Instant Hijab</a></li>
+                <li><a href="premium-shawl.html">Premium Shawl</a></li>
+                <li><a href="sale.html">Sale</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<section class="hero">
+    <h1>New Arrivals!</h1>
+    <p>Check out the latest Tudung Kamu hijabs and shawls — fresh styles and colours to elevate your look.</p>
+</section>
+
+<div class="container content-wrapper">
+    <aside>
+        <div class="filter-box">
+            <div class="filter-header">
+                <span>Filters</span>
+                <i class="fas fa-sliders-h"></i>
+            </div>
+
+            <div class="filter-group">
+                <h4>Material</h4>
+                <label><input type="checkbox"> Chiffon</label>
+                <label><input type="checkbox"> Cotton</label>
+                <label><input type="checkbox"> Silk</label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Colour</h4>
+                <label><input type="checkbox"> Maroon</label>
+                <label><input type="checkbox"> Beige</label>
+                <label><input type="checkbox"> Dusty Pink</label>
+                <label><input type="checkbox"> Black</label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Style</h4>
+                <label><input type="checkbox"> Instant</label>
+                <label><input type="checkbox"> Shawl</label>
+                <label><input type="checkbox"> Square</label>
+            </div>
+
+            <button class="btn-apply">Apply Filters</button>
+        </div>
+    </aside>
+
+    <main>
+        <div class="sort-bar">
+            <select>
+                <option>Sort by: Featured</option>
+                <option>Newest</option>
+                <option>Price Low-High</option>
+            </select>
+        </div>
+
+         <div class="xml-summary-box">
+            <a href="new-arrivals.xml" class="btn-xml">
+            View New Arrivals Summary (XML)
+            </a>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="new-badge">NEW</div>
+                <img src="image/new arrivals/sora.jpg" alt="Sora Sulam Chiffon Shawl">
+                <div class="product-name">Sora Sulam Chiffon Shawl</div>
+                <div class="product-price">RM 139.00</div>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="new-badge">NEW</div>
+                <img src="image/new arrivals/keira.jpg" alt="Keira Sulam Chiffon Shawl">
+                <div class="product-name">Keira Sulam Chiffon Shawl</div>
+                <div class="product-price">RM 129.00</div>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="new-badge">NEW</div>
+                <img src="image/new arrivals/selma.jpg" alt="Selma Chiffon Sulam Shawl">
+                <div class="product-name">Selma Chiffon Sulam Shawl</div>
+                <div class="product-price">RM 129.00</div>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                        <img src="image/new arrivals/karya.jpg" alt="Karya Semi-Instant with Inner" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">Karya Semi-Instant with Inner</div>
+                            <div class="product-price">RM 129.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="image/new arrivals/kalia.jpg" alt="Kalia Sulam Square" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">Kalia Sulam Square</div>
+                            <div class="product-price">RM 99.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="image/new arrivals/garden.jpg" alt="The Garden Chateu Shawl" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">The Garden Chateu Shawl</div>
+                            <div class="product-price">RM 99.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="image/new arrivals/khaleesi.jpg" alt="X-Press Khaleesi Khimar" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">X-Press Khaleesi Khimar</div>
+                            <div class="product-price">RM 119.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="image/new arrivals/sabine.jpg" alt="Sabine Semi-Instant Square" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">Sabine Semi-Instant Square</div>
+                            <div class="product-price">RM 79.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="image/new arrivals/npower.jpg" alt="tPower ActiveDry Maxi" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">tPower ActiveDry Maxi</div>
+                            <div class="product-price">RM 89.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="image/new arrivals/swim.jpg" alt="tPower Swim Instant" class="product-image">
+                        <div class="product-info">
+                            <div class="product-name">tPower Swim Instant</div>
+                            <div class="product-price">RM 89.00</div>
+                            <button class="btn-add">Add to Cart</button>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </div>
+    </main>
+</div>
+
+<footer>
+    <div class="container footer-container">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h5>Customer Service</h5>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5>Policies</h5>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>About Tudung Kamu</h5>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>FAQs</h5>
+                <ul>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Care Instructions</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tudung Kamu. All Rights Reserved.</p>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

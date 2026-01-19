@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="new-arrivals.xsl"?>
+
+<products>
+
+    <product>
+        <id>1</id>
+        <name>Sora Sulam Chiffon Shawl</name>
+        <material>Chiffon</material>
+        <style>Shawl</style>
+        <colour>Maroon</colour>
+        <price>139.00</price>
+        <description>Elegant chiffon shawl with delicate sulam embroidery for a classy look.</description>
+    </product>
+
+    <product>
+        <id>2</id>
+        <name>Keira Sulam Chiffon Shawl</name>
+        <material>Chiffon</material>
+        <style>Shawl</style>
+        <colour>Dusty Pink</colour>
+        <price>129.00</price>
+        <description>Soft chiffon shawl with beautiful sulam detailing, perfect for daily wear.</description>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Selma Chiffon Sulam Shawl</name>
+        <material>Chiffon</material>
+        <style>Shawl</style>
+        <colour>Beige</colour>
+        <price>129.00</price>
+        <description>Lightweight chiffon shawl with elegant embroidery finish.</description>
+    </product>
+
+    <product>
+        <id>4</id>
+        <name>Karya Semi-Instant with Inner</name>
+        <material>Cotton Blend</material>
+        <style>Semi-Instant</style>
+        <colour>Black</colour>
+        <price>129.00</price>
+        <description>Easy-to-wear semi-instant hijab complete with inner for comfort.</description>
+    </product>
+
+    <product>
+        <id>5</id>
+        <name>Kalia Sulam Square</name>
+        <material>Cotton</material>
+        <style>Square</style>
+        <colour>Beige</colour>
+        <price>99.00</price>
+        <description>Classic square hijab with elegant sulam pattern.</description>
+    </product>
+
+    <product>
+        <id>6</id>
+        <name>The Garden Chateau Shawl</name>
+        <material>Chiffon</material>
+        <style>Shawl</style>
+        <colour>Floral</colour>
+        <price>99.00</price>
+        <description>Printed chiffon shawl inspired by garden florals.</description>
+    </product>
+
+    <product>
+        <id>7</id>
+        <name>X-Press Khaleesi Khimar</name>
+        <material>Jersey</material>
+        <style>Instant</style>
+        <colour>Black</colour>
+        <price>119.00</price>
+        <description>Instant khimar with stretchable fabric for maximum comfort.</description>
+    </product>
+
+    <product>
+        <id>8</id>
+        <name>Sabine Semi-Instant Square</name>
+        <material>Cotton</material>
+        <style>Semi-Instant</style>
+        <colour>Dusty Pink</colour>
+        <price>79.00</price>
+        <description>Practical semi-instant square hijab for daily wear.</description>
+    </product>
+
+    <product>
+        <id>9</id>
+        <name>tPower ActiveDry Maxi</name>
+        <material>Sport Fabric</material>
+        <style>Instant</style>
+        <colour>Black</colour>
+        <price>89.00</price>
+        <description>Breathable sports hijab for active lifestyle.</description>
+    </product>
+
+    <product>
+        <id>10</id>
+        <name>tPower Swim Instant</name>
+        <material>Swim Fabric</material>
+        <style>Instant</style>
+        <colour>Black</colour>
+        <price>89.00</price>
+        <description>Water-friendly instant hijab for swimming activities.</description>
+    </product>
+
+</products>

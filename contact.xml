@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="contact.xsd">
+
+    <storeName>Tudung Kamu</storeName>
+
+    <customer>
+        <name>Athira Natasha</name>
+        <email>athiraaziz05@gmail.com</email>
+        <phone>+60198763152</phone>
+        <messageDetails>
+            <subject>Product Inquiry</subject>
+            <category>Product Info</category>
+            <message>
+                I would like to know if the instant hijab is available in pastel pink.
+            </message>
+            <submissionDate>2026-01-18</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Nur Aisyah</name>
+        <email>aisyah@gmail.com</email>
+        <phone>+60198765432</phone>
+        <messageDetails>
+            <subject>Order Tracking</subject>
+            <category>Order Status</category>
+            <message>
+                I placed an order last week and would like to know the delivery status.
+            </message>
+            <submissionDate>2026-01-19</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Siti Hajar</name>
+        <email>sitihajar@yahoo.com</email>
+        <messageDetails>
+            <subject>Return Request</subject>
+            <category>Returns</category>
+            <message>
+                I received the wrong colour and would like to request a return.
+            </message>
+            <submissionDate>2026-01-20</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Amirah Sofea</name>
+        <email>amirahsofea@gmail.com</email>
+        <phone>+60113334455</phone>
+        <messageDetails>
+            <subject>Shipping Question</subject>
+            <category>Shipping</category>
+            <message>
+                How long does shipping usually take to Sabah?
+            </message>
+            <submissionDate>2026-01-21</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Hana Izzati</name>
+        <email>hanaizzati@gmail.com</email>
+        <phone>+60145556677</phone>
+        <messageDetails>
+            <subject>Size Availability</subject>
+            <category>Product Info</category>
+            <message>
+                Is the premium shawl suitable for petite sizes?
+            </message>
+            <submissionDate>2026-01-22</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Aina Syahirah</name>
+        <email>ainasyahirah@gmail.com</email>
+        <messageDetails>
+            <subject>Other Enquiry</subject>
+            <category>Other</category>
+            <message>
+                Do you offer student discounts for bulk purchases?
+            </message>
+            <submissionDate>2026-01-23</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Farah Nabila</name>
+        <email>farahnabila@gmail.com</email>
+        <phone>+60126667788</phone>
+        <messageDetails>
+            <subject>Colour Availability</subject>
+            <category>Product Info</category>
+            <message>
+                Is the premium shawl available in maroon colour?
+            </message>
+            <submissionDate>2026-01-24</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Nurul Iman</name>
+        <email>nuruliman@yahoo.com</email>
+        <messageDetails>
+            <subject>Delivery Delay</subject>
+            <category>Shipping</category>
+            <message>
+                My order has not arrived yet. Could you please check the status?
+            </message>
+            <submissionDate>2026-01-25</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Syasya Adriana</name>
+        <email>syasyaadriana@gmail.com</email>
+        <phone>+60137778899</phone>
+        <messageDetails>
+            <subject>Refund Process</subject>
+            <category>Returns</category>
+            <message>
+                How long does the refund process usually take?
+            </message>
+            <submissionDate>2026-01-26</submissionDate>
+        </messageDetails>
+    </customer>
+
+    <customer>
+        <name>Balqis Amani</name>
+        <email>balqisamani@gmail.com</email>
+        <messageDetails>
+            <subject>Order Confirmation</subject>
+            <category>Order Status</category>
+            <message>
+                I have not received my order confirmation email yet.
+            </message>
+            <submissionDate>2026-01-27</submissionDate>
+        </messageDetails>
+    </customer>
+
+</contact>
