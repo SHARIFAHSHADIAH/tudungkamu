@@ -220,30 +220,5 @@
     </div>
 </footer>
 
-
-<script>
-fetch("contact.xml")
-    .then(response => response.text())
-    .then(text => new DOMParser().parseFromString(text, "text/xml"))
-    .then(xml => {
-        const customers = xml.getElementsByTagName("customer");
-        const tbody = document.querySelector("#contactTable tbody");
-
-        for (let customer of customers) {
-            const row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${customer.getElementsByTagName("name")[0].textContent}</td>
-                <td>${customer.getElementsByTagName("email")[0].textContent}</td>
-                <td>${customer.getElementsByTagName("phone")[0].textContent}</td>
-                <td>${customer.getElementsByTagName("subject")[0].textContent}</td>
-                <td>${customer.getElementsByTagName("category")[0].textContent}</td>
-                <td>${customer.getElementsByTagName("message")[0].textContent}</td>
-                <td>${customer.getElementsByTagName("submissionDate")[0].textContent}</td>
-            `;
-            tbody.appendChild(row);
-        }
-    });
-</script>
-
 </body>
 </html>
