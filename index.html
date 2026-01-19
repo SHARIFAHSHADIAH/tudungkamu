@@ -5,13 +5,73 @@
     <title>Tudung Kamu | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
-</head>
 
+    <style>
+        .section-title {
+            text-align: center;
+            color: #7A1F2B;
+            margin: 50px 0 30px 0;
+            font-size: 32px;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .product-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            max-width: 250px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 20px;
+            color: #7A1F2B;
+            margin-bottom: 10px;
+        }
+
+        .product-card p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .btn-cart {
+            background-color: #7A1F2B;
+            color: #F3E3CF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .btn-cart:hover {
+            background-color: #5C1721;
+        }
+    </style>
+</head>
 <body>
 
 <header>
@@ -36,7 +96,7 @@
 
         <nav class="main-nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="new-arrivals.html">New Arrivals</a></li>
                 <li><a href="instant-hijab.html">Instant Hijab</a></li>
@@ -58,28 +118,76 @@
 <div class="container">
     <h2 class="section-title">Featured Collections</h2>
     <div class="product-grid">
-
         <div class="product-card">
             <img src="image/instant hijab/anya.jpg" alt="Instant Hijab">
             <h3>Instant Hijab</h3>
             <p>RM39</p>
-            <button class="btn-cart" href="instant-hijab.html">Add to Cart</button>
+            <button class="btn-cart" onclick="window.location.href='instant-hijab.html'">Add to Cart</button>
         </div>
-
         <div class="product-card">
             <img src="image/premium shawl/alaia.jpg" alt="Premium Shawl">
             <h3>Premium Shawl</h3>
             <p>RM55</p>
-            <button class="btn-cart" href="premium-shawl.html">Add to Cart</button>
+            <button class="btn-cart" onclick="window.location.href='premium-shawl.html'">Add to Cart</button>
         </div>
-
         <div class="product-card">
             <img src="image/new arrivals/garden.jpg" alt="New Arrivals">
             <h3>New Arrivals</h3>
             <p>RM45</p>
-            <button class="btn-cart" href="new-arrivals.html">Add to Cart</button>
+            <button class="btn-cart" onclick="window.location.href='new-arrivals.html'">Add to Cart</button>
         </div>
     </div>
+
+    <h2 class="section-title">Bestseller</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="image/bestseller1.jpg" alt="Bestseller 1">
+            <h3>Bestseller Hijab 1</h3>
+            <p>RM49</p>
+            <button class="btn-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="image/bestseller2.jpg" alt="Bestseller 2">
+            <h3>Bestseller Hijab 2</h3>
+            <p>RM52</p>
+            <button class="btn-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Trending Style Section -->
+    <h2 class="section-title">Trending Style</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="image/trending1.jpg" alt="Trending 1">
+            <h3>Trending Hijab 1</h3>
+            <p>RM44</p>
+            <button class="btn-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="image/trending2.jpg" alt="Trending 2">
+            <h3>Trending Hijab 2</h3>
+            <p>RM50</p>
+            <button class="btn-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Recommendation Section -->
+    <h2 class="section-title">Recommendation</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="image/recommend1.jpg" alt="Recommendation 1">
+            <h3>Recommended Hijab 1</h3>
+            <p>RM46</p>
+            <button class="btn-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="image/recommend2.jpg" alt="Recommendation 2">
+            <h3>Recommended Hijab 2</h3>
+            <p>RM53</p>
+            <button class="btn-cart">Add to Cart</button>
+        </div>
+    </div>
+
 </div>
 
 <div class="container about-box" style="margin-top:50px;">
