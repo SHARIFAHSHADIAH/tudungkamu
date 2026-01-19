@@ -70,13 +70,13 @@ xmlns:xml="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:for-each select="products/product">
     <tr>
-        <td><xsl:value-of select="ns:id"/></td>
-        <td><xsl:value-of select="ns:name"/></td>
-        <td><xsl:value-of select="ns:material"/></td>
-        <td><xsl:value-of select="ns:style"/></td>
-        <td><xsl:value-of select="ns:colour"/></td>
-        <td class="price"><xsl:value-of select="ns:price"/></td>
-        <td><xsl:value-of select="ns:description"/></td>
+        <td><xsl:value-of select="id"/></td>
+        <td><xsl:value-of select="name"/></td>
+        <td><xsl:value-of select="material"/></td>
+        <td><xsl:value-of select="style"/></td>
+        <td><xsl:value-of select="colour"/></td>
+        <td class="price"><xsl:value-of select="price"/></td>
+        <td><xsl:value-of select="description"/></td>
     </tr>
 </xsl:for-each>
 
